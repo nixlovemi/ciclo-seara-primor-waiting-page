@@ -1,0 +1,95 @@
+body { 
+    margin:0;
+    background-color: #ff0006;
+}
+
+#containner {
+    position: relative;
+}
+
+.image-responsive {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.links {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #00ff44;
+}
+
+#fcbk {
+    top: 88%;
+    left: 67.29%;
+    background-color: transparent;
+}
+
+#insta {
+    top: 88%;
+    left: 65.5%;
+    background-color: transparent;
+}
+
+#ytb {
+    top: 88%;
+    left: 69.5%;
+    background-color: transparent;
+}
+
+#video {
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    width: 640px;
+    height: 360px;
+    background-color: #000;
+}
+
+@media (max-width: 1524px) {
+    .shorter-image {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../images/Finalizado-PIT-9399---Site-Primor-2024---Tela-de-Espera---1920x1080px.jpg');
+        background-size: 100% 100%;
+        min-width: 1024px;
+        min-height: 768px;
+        background-repeat: no-repeat;
+    }
+    .image-responsive {
+        display: none;
+    }
+}
+
+@media (max-width: 1410px) {
+    #video {
+        width: 540px;
+        height: 304px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .links {
+        width: 20px;
+    }
+
+    #fcbk {
+        left: 43em;
+    }
+
+    #insta {
+        left: 41.7em;
+    }
+
+    #ytb {
+        left: 44.3em;
+    }
+
+    #video {
+        width: 440px;
+        height: 248px;
+        left: 30em;
+        top: 13em;
+    }
+}
